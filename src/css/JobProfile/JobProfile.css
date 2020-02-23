@@ -8,6 +8,16 @@
     font-family: 'Lucida Sans';
 }
 
+.ditl-button{
+    background-color: #23629F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    width: 130px;
+}
+
 .profile{
     display: grid;
     grid-column: 2;
@@ -89,6 +99,24 @@
     padding-left: 20px;
 }
 
+.summary-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.summary-header button{
+    position: relative;
+    top: -5px;
+    left: 250px;
+}
+
+.summary {
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+/* Qualifications */
 .qualifications {
     box-shadow: 0 7px 25px 0 rgba(0,0,0,.1);
     margin-bottom: 15px;
